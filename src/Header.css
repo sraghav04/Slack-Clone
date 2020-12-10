@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px 0;
+  background-color: var(--slack-color);
+}
+.header_left {
+  display: flex;
+  align-items: center;
+  flex: 0.3;
+  margin-left: 20px;
+}
+.header_left > .MuiSvgIcon-root {
+  margin-left: auto;
+  margin-right: 30px;
+}
+.header_search {
+  display: flex;
+  flex: 0.4;
+  text-align: center;
+  background-color: #421f44;
+  padding: 1px 50px;
+  color: grey;
+  border: ipx solid gray;
+  border-radius: 6px;
+}
+.header_search > input {
+  min-width: 35vw;
+  background-color: transparent;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+.header_right {
+  flex: 0.3;
+  display: flex;
+  align-items: flex-end;
+}
+.header_right > .MuiSvgIcon-root {
+  margin-left: auto;
+  margin-right: 20px;
+}

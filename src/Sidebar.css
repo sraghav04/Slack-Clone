@@ -4,7 +4,7 @@
   max-width: 260px;
   color: #ffffff;
   flex: 0.3;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 .sidebar > hr {
   margin: 10px 0;
